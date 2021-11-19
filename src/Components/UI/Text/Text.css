@@ -1,0 +1,9 @@
+.text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.text h3{
+    text-align:center;
+}
