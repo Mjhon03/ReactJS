@@ -1,11 +1,12 @@
 import './Card.css';
-import image from '../../../Images/card.jpg'
 
-export const Card = () =>{
+export const Card = ({coin}) =>{
     return(
         <>
-        <div className='card'>
-            <img src={image} alt="Img-card" className="cardImg" />
+        
+        <div key={coin.id} className='card'>
+            <img src={coin.URL} alt="Img-card" className="cardImg" />
+            <h2 className="card_name">{coin.name}</h2>
             <button className='btn'>Get</button>
         </div>
         </>

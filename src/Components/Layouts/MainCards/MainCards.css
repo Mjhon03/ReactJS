@@ -1,0 +1,6 @@
+.main-card{
+    display: flex;
+    background-color: rgb(204, 204, 204);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
